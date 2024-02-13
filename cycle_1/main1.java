@@ -6,6 +6,10 @@ public static void main(String[] args)
 PProduct obj1=new PProduct();
 PProduct obj2=new PProduct();
 PProduct obj3=new PProduct();
+System.out.println("Jerry James \n 23mca036 \n 13-02-24");
+System.out.println("Define a class ‘product’ with data members pcode, pname and price. Create 3 objects of the class and find the product having the lowest price.");
+System.out.println("****************************");
+
 obj1.product();
 obj2.product();
 obj3.product();
@@ -22,9 +26,6 @@ System.out.println("name: "+obj2.name+"\nprice :"+obj2.price);
 else
 System.out.println("name: "+obj3.name+"\nprice :"+obj3.price);
 
-
-System.out.println("****************************");
-System.out.println("Jerry James \n 23mca036 \n 13-02-24");
 }
 }
 
