@@ -18,14 +18,13 @@ obj1.display();
 obj2.display();
 obj1.display();
 
-System.out.println("This  product has the lowest price");
+System.out.println("Product having the lowest price\n");
 if(obj1.price<obj2.price && obj1.price<obj3.price)
 System.out.println("name: "+obj1.name+"\nprice :"+obj1.price);
 else if(obj2.price<obj3.price && obj2.price<obj1.price)
 System.out.println("name: "+obj2.name+"\nprice :"+obj2.price);
 else
 System.out.println("name: "+obj3.name+"\nprice :"+obj3.price);
-
 }
 }
 
@@ -47,6 +46,6 @@ price=sc.nextInt();
 void display()
 {
 System.out.println("\nDetails");
-System.out.println("code: "+pcode+"\tname: "+name+"\tprice: "+price);
+System.out.println("code: "+pcode+"\tname: "+name+"\tprice: "+price+"\n");
 }
 }
